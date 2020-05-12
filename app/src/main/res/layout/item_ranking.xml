@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+    <TextView
+        android:id="@+id/te_ranking"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="20dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/te_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="队名"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/te_captain"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="队长"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorGray"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

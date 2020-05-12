@@ -1,0 +1,4 @@
+# Referenced at E:\bzzzm\DACplatform\app\build\intermediates\merged_manifests\tencentDebug\AndroidManifest.xml:48
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\bzzzm\DACplatform\app\build\intermediates\merged_manifests\tencentDebug\AndroidManifest.xml:48
+-keep class com.stx.xhb.DCAPlatform.base.BaseApplication { <init>(); }

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.stx.xhb.DCAPlatform.activities.EventDetailActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ToolbarTheme"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/image_event"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:background="@drawable/add_image"
+                android:clickable="true"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赛事相关信息"
+            android:textColor="@color/colorGray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赛事名称："
+                    />
+
+                <EditText
+                    android:id="@+id/tv_event_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:textColor="@android:color/black"
+                    android:cursorVisible="true"
+                    android:textCursorDrawable="@null"
+                    android:textSize="13dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赛事类型：" />
+
+                <EditText
+                    android:id="@+id/tv_event_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:textColor="@android:color/black"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="主办单位：" />
+                <EditText
+                    android:id="@+id/sponsor"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:textColor="@android:color/black"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始日期：" />
+
+                <EditText
+                    android:id="@+id/start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:textColor="@android:color/black"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="承办单位：" />
+
+                <EditText
+                    android:id="@+id/organizer"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="官网网站：" />
+
+                <EditText
+                    android:id="@+id/website"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赛事简介：" />
+                <EditText
+                    android:id="@+id/introduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/colorWhite"
+                    android:cursorVisible="true"
+                    android:textSize="13dp"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="审核标准"
+                android:textColor="@color/colorGray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+                <ImageView
+                    android:id="@+id/add_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:background="@drawable/add_item"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/create_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:background="@drawable/shape"
+                    android:text="创建比赛" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,889 @@
+-- Merging decision tree log ---
+meta-data#UMENG_CHANNEL
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:292:9-294:41
+	android:value
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:294:13-39
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:293:13-41
+meta-data#IFLYTEK_CHANNEL
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:300:9-302:41
+	android:value
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:302:13-39
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:301:13-43
+manifest
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d98298ce3f3d4dc85d9269758283feb9\animated-vector-drawable-23.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7fef0afd6a0f6277c743816c1c292696\support-vector-drawable-23.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2fa4665bee0ea8aa6d6c3c3c1dfc89db\support-v4-23.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\31656dce818f834cfbf08db4870b256d\library-2.4.1\AndroidManifest.xml:1:107-4:12
+MERGED from [org.xutils:xutils:3.3.12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7b007c5f9e360efc3ab2047efa6dd596\xutils-3.3.12\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\cc83a75a05dcafd62444796a8c9c4e10\library-1.1.0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.shell-software:fab:1.1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e68fe8b7af57a2d9e25fec1e6f6be9f3\fab-1.1.2\AndroidManifest.xml:19:1-29:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\457c2638767c5103a9e348e988dc157e\circleimageview-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:23.2.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\40e23ac994752204aac4cb82ac61df46\cardview-v7-23.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.classic.common:multiple-status-view:1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\5152a5a5aee2824c4a32ac4bbbbd5ebb\multiple-status-view-1.2\AndroidManifest.xml:2:1-17:12
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\938af28001b43f824a78c832342aa673\ultra-ptr-1.0.11\AndroidManifest.xml:2:1-13:12
+MERGED from [cn.finalteam.loadingviewfinal:loading-more-view:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\729ceab8bff041b6f5b83c74de026046\loading-more-view-1.0.1\AndroidManifest.xml:2:1-16:12
+MERGED from [cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d8678980aa048270c86e7e33537df844\ultra-pull-to-refresh-1.0.1\AndroidManifest.xml:2:1-16:12
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:2:1-129:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\dc81f70bba666021d80c9247cc0d2845\multidex-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.vivian.widgets:TimeLineItemDecoration:1.5] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\eef0113cc4a06d0167af6ef1a21f41a7\TimeLineItemDecoration-1.5\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\711cd693cb47fa08b9b342d9a2815457\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:17:1-43:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.shell-software:viewmover:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b34d871b61ea08cf0f4fe1f57403515e\viewmover-1.1.0\AndroidManifest.xml:19:1-29:12
+MERGED from [com.github.shell-software:uitools:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8af1103aecc4846a9c6a51b368f9700c\uitools-1.1.0\AndroidManifest.xml:19:1-29:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\98ae252499136acc1b719b648cf37a02\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+	package
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:1-315:12
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:18:5-67
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:8:5-83
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:25:5-84
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:8:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:21:5-81
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:22:5-80
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:13:5-64
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:13:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:14:5-59
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:15:19-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:17:5-78
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:26:5-79
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:18:5-75
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:27:5-76
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:19:5-80
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:30:5-81
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:23:5-74
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:20:5-75
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:23:22-72
+uses-permission#com.stx.xhb.dmgameapp.permission.JPUSH_MESSAGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:28:5-85
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:28:22-83
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:29:5-78
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:17:5-79
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:30:5-67
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:19:5-68
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:30:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:31:5-65
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:24:5-66
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:31:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:32:5-72
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:23:5-73
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:32:22-70
+application
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:34:5-313:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d98298ce3f3d4dc85d9269758283feb9\animated-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d98298ce3f3d4dc85d9269758283feb9\animated-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7fef0afd6a0f6277c743816c1c292696\support-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7fef0afd6a0f6277c743816c1c292696\support-vector-drawable-23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2fa4665bee0ea8aa6d6c3c3c1dfc89db\support-v4-23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2fa4665bee0ea8aa6d6c3c3c1dfc89db\support-v4-23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [org.xutils:xutils:3.3.12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7b007c5f9e360efc3ab2047efa6dd596\xutils-3.3.12\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.3.12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7b007c5f9e360efc3ab2047efa6dd596\xutils-3.3.12\AndroidManifest.xml:12:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\cc83a75a05dcafd62444796a8c9c4e10\library-1.1.0\AndroidManifest.xml:12:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\cc83a75a05dcafd62444796a8c9c4e10\library-1.1.0\AndroidManifest.xml:12:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\457c2638767c5103a9e348e988dc157e\circleimageview-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\457c2638767c5103a9e348e988dc157e\circleimageview-2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:23.2.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\40e23ac994752204aac4cb82ac61df46\cardview-v7-23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.2.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\40e23ac994752204aac4cb82ac61df46\cardview-v7-23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.classic.common:multiple-status-view:1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\5152a5a5aee2824c4a32ac4bbbbd5ebb\multiple-status-view-1.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.classic.common:multiple-status-view:1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\5152a5a5aee2824c4a32ac4bbbbd5ebb\multiple-status-view-1.2\AndroidManifest.xml:11:5-15:19
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\938af28001b43f824a78c832342aa673\ultra-ptr-1.0.11\AndroidManifest.xml:11:5-20
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\938af28001b43f824a78c832342aa673\ultra-ptr-1.0.11\AndroidManifest.xml:11:5-20
+MERGED from [cn.finalteam.loadingviewfinal:loading-more-view:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\729ceab8bff041b6f5b83c74de026046\loading-more-view-1.0.1\AndroidManifest.xml:11:5-14:19
+MERGED from [cn.finalteam.loadingviewfinal:loading-more-view:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\729ceab8bff041b6f5b83c74de026046\loading-more-view-1.0.1\AndroidManifest.xml:11:5-14:19
+MERGED from [cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d8678980aa048270c86e7e33537df844\ultra-pull-to-refresh-1.0.1\AndroidManifest.xml:11:5-14:19
+MERGED from [cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d8678980aa048270c86e7e33537df844\ultra-pull-to-refresh-1.0.1\AndroidManifest.xml:11:5-14:19
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:36:5-127:19
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:36:5-127:19
+MERGED from [com.vivian.widgets:TimeLineItemDecoration:1.5] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\eef0113cc4a06d0167af6ef1a21f41a7\TimeLineItemDecoration-1.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.vivian.widgets:TimeLineItemDecoration:1.5] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\eef0113cc4a06d0167af6ef1a21f41a7\TimeLineItemDecoration-1.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:24:5-41:19
+MERGED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:24:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:38:9-41
+	android:icon
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:37:9-37
+	android:allowBackup
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:40:9-48
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:35:9-45
+activity#com.stx.xhb.DCAPlatform.MainActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:42:9-45:51
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:45:13-49
+	android:launchMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:43:13-41
+activity#com.stx.xhb.DCAPlatform.activities.SplashActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:46:9-56:20
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:49:13-49
+	android:launchMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:48:13-44
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:50:13-47
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:47:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:52:17-68
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:54:27-74
+activity#com.stx.xhb.DCAPlatform.activities.ArticleDetailActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:58:9-61:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:60:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:59:13-61
+activity#com.stx.xhb.DCAPlatform.activities.CommentActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:63:9-67:69
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:65:13-49
+	android:windowSoftInputMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:67:13-67
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:66:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:64:13-55
+activity#com.stx.xhb.DCAPlatform.activities.GameDetailActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:69:9-72:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:71:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:72:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:70:13-58
+activity#com.stx.xhb.DCAPlatform.activities.MessageDetailActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:73:9-76:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:75:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:74:13-61
+activity#com.stx.xhb.DCAPlatform.activities.MyEventsActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:77:9-80:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:79:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:78:13-56
+activity#com.stx.xhb.DCAPlatform.activities.AuditDetailActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:81:9-84:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:83:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:84:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:82:13-59
+activity#com.stx.xhb.DCAPlatform.activities.SelectAuditActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:85:9-88:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:87:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:86:13-59
+activity#com.stx.xhb.DCAPlatform.activities.SubmitActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:89:9-92:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:91:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:92:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:90:13-54
+activity#com.stx.xhb.DCAPlatform.filepick.FilePickerActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:93:9-96:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:95:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:94:13-56
+activity#com.stx.xhb.DCAPlatform.activities.AuditActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:97:9-100:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:99:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:98:13-53
+activity#com.stx.xhb.DCAPlatform.activities.AdminEventActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:101:9-104:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:103:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:104:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:102:13-58
+activity#com.stx.xhb.DCAPlatform.activities.CreateEventActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:105:9-108:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:107:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:108:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:106:13-59
+activity#com.stx.xhb.DCAPlatform.activities.HonorActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:109:9-112:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:111:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:110:13-53
+activity#com.stx.xhb.DCAPlatform.activities.LoginActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:113:9-116:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:115:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:116:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:114:13-53
+activity#com.stx.xhb.DCAPlatform.activities.RegisterActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:117:9-120:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:120:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:118:13-56
+activity#com.stx.xhb.DCAPlatform.activities.SignUpActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:121:9-124:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:123:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:122:13-54
+activity#com.qq.e.ads.ADActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:126:9-129:20
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:128:13-83
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:127:13-51
+activity#com.stx.xhb.DCAPlatform.activities.VideoDetailActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:131:9-136:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:135:13-49
+	android:hardwareAccelerated
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:134:13-47
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:133:13-74
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:136:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:132:13-59
+activity#com.tencent.smtt.sdk.VideoActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:138:9-150:20
+	android:launchMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:143:13-44
+	android:windowSoftInputMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:144:13-67
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:142:13-37
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:141:13-74
+	android:alwaysRetainTaskState
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:139:13-62
+intent-filter#action:name:com.tencent.smtt.tbs.video.PLAY+category:name:android.intent.category.DEFAULT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:145:13-149:29
+action#com.tencent.smtt.tbs.video.PLAY
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:146:17-73
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:146:25-71
+category#android.intent.category.DEFAULT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:17-75
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:27-73
+activity#com.stx.xhb.DCAPlatform.activities.SettingActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:151:9-154:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:153:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:154:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:152:13-55
+activity#com.stx.xhb.DCAPlatform.activities.AboutActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:156:9-159:46
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:159:13-44
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:157:13-53
+activity#com.umeng.socialize.editorpage.ShareActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:161:9-164:53
+	android:excludeFromRecents
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:163:13-46
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:164:13-51
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:162:13-72
+activity#com.stx.xhb.DCAPlatform.wxapi.WXEntryActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:167:9-172:74
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:171:13-49
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:170:13-36
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:169:13-74
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:172:13-72
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:168:13-50
+activity#com.stx.xhb.DCAPlatform.activities.WBShareActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:174:9-182:20
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:177:13-49
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:176:13-63
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:175:13-55
+intent-filter#action:name:com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:178:13-181:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:179:17-91
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:179:25-89
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:184:9-189:20
+	android:windowSoftInputMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:188:13-55
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:187:13-37
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:186:13-63
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:185:13-72
+activity#com.tencent.tauth.AuthActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:192:9-204:20
+	android:launchMode
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:194:13-44
+	android:noHistory
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:195:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:193:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent100424468
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:196:13-203:29
+action#android.intent.action.VIEW
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:197:17-68
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:197:25-66
+category#android.intent.category.BROWSABLE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:200:17-77
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:200:27-75
+data
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:17-58
+	android:scheme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:206:9-209:74
+	android:screenOrientation
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:208:13-49
+	android:theme
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:209:13-72
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:207:13-69
+activity#cn.jpush.android.ui.PushActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:211:9-221:20
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:45:9-56:20
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:45:9-56:20
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:214:13-37
+	android:configChanges
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:213:13-63
+	android:theme
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:49:13-60
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:212:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.stx.xhb.dmgameapp
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:215:13-220:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:216:17-74
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:216:25-72
+category#com.stx.xhb.dmgameapp
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:17-65
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:27-63
+service#com.qq.e.comm.DownloadService
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:223:9-225:39
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:225:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:224:13-57
+receiver#com.stx.xhb.DCAPlatform.receiver.NetStateReceiver
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:228:9-233:20
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:228:19-60
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:229:13-232:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:17-78
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:25-76
+meta-data#QBSDKAppKey
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:236:9-238:55
+	android:value
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:238:13-53
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:237:13-39
+receiver#com.stx.xhb.DCAPlatform.receiver.BootCompletedReceiver
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:240:9-244:20
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:240:19-65
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:241:13-243:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:242:17-78
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:242:25-76
+service#cn.jpush.android.service.PushService
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:247:9-257:19
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:65:9-76:19
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:65:9-76:19
+	android:process
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:69:13-40
+	android:enabled
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:249:13-35
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:250:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:248:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:251:13-256:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:252:17-74
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:252:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:253:17-72
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:253:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:254:17-77
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:254:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:255:17-75
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:255:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:259:9-277:20
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:92:9-112:20
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:92:9-112:20
+	android:process
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:96:13-40
+	android:enabled
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:261:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:260:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.stx.xhb.dmgameapp
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:262:13-265:29
+	android:priority
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:262:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:263:17-93
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:263:25-91
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:266:13-269:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:267:17-76
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:267:25-74
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:271:13-276:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:272:17-77
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:272:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:273:17-79
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:273:25-77
+service#cn.jpush.android.service.DownloadService
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:279:9-283:19
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:58:9-61:40
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:58:9-61:40
+	android:enabled
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:281:13-35
+	android:exported
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:282:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:280:13-68
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:284:9-74
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:115:9-117:40
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:115:9-117:40
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:117:13-37
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:284:19-72
+meta-data#UMENG_APPKEY
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:288:9-291:21
+	android:value
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:290:13-53
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:289:13-40
+meta-data#IFLYTEK_APPKEY
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:297:9-299:41
+	android:value
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:299:13-29
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:298:13-42
+activity#com.iflytek.autoupdate.IFlytekUpdateDialog
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:304:9-78
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:304:19-76
+service#com.iflytek.autoupdate.IFlytekDownloadService
+ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:305:9-80
+	android:name
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:305:18-78
+uses-sdk
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d98298ce3f3d4dc85d9269758283feb9\animated-vector-drawable-23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d98298ce3f3d4dc85d9269758283feb9\animated-vector-drawable-23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7fef0afd6a0f6277c743816c1c292696\support-vector-drawable-23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7fef0afd6a0f6277c743816c1c292696\support-vector-drawable-23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2fa4665bee0ea8aa6d6c3c3c1dfc89db\support-v4-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2fa4665bee0ea8aa6d6c3c3c1dfc89db\support-v4-23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\31656dce818f834cfbf08db4870b256d\library-2.4.1\AndroidManifest.xml:3:5-42
+MERGED from [com.viewpagerindicator:library:2.4.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\31656dce818f834cfbf08db4870b256d\library-2.4.1\AndroidManifest.xml:3:5-42
+MERGED from [org.xutils:xutils:3.3.12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7b007c5f9e360efc3ab2047efa6dd596\xutils-3.3.12\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.3.12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7b007c5f9e360efc3ab2047efa6dd596\xutils-3.3.12\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\cc83a75a05dcafd62444796a8c9c4e10\library-1.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\cc83a75a05dcafd62444796a8c9c4e10\library-1.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.shell-software:fab:1.1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e68fe8b7af57a2d9e25fec1e6f6be9f3\fab-1.1.2\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:fab:1.1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e68fe8b7af57a2d9e25fec1e6f6be9f3\fab-1.1.2\AndroidManifest.xml:25:5-27:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\457c2638767c5103a9e348e988dc157e\circleimageview-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\457c2638767c5103a9e348e988dc157e\circleimageview-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:23.2.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\40e23ac994752204aac4cb82ac61df46\cardview-v7-23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.2.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\40e23ac994752204aac4cb82ac61df46\cardview-v7-23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.classic.common:multiple-status-view:1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\5152a5a5aee2824c4a32ac4bbbbd5ebb\multiple-status-view-1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.classic.common:multiple-status-view:1.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\5152a5a5aee2824c4a32ac4bbbbd5ebb\multiple-status-view-1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\938af28001b43f824a78c832342aa673\ultra-ptr-1.0.11\AndroidManifest.xml:7:5-9:41
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\938af28001b43f824a78c832342aa673\ultra-ptr-1.0.11\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam.loadingviewfinal:loading-more-view:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\729ceab8bff041b6f5b83c74de026046\loading-more-view-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam.loadingviewfinal:loading-more-view:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\729ceab8bff041b6f5b83c74de026046\loading-more-view-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d8678980aa048270c86e7e33537df844\ultra-pull-to-refresh-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam.loadingviewfinal:ultra-pull-to-refresh:1.0.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\d8678980aa048270c86e7e33537df844\ultra-pull-to-refresh-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\dc81f70bba666021d80c9247cc0d2845\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\dc81f70bba666021d80c9247cc0d2845\multidex-1.0.2\AndroidManifest.xml:20:5-43
+MERGED from [com.vivian.widgets:TimeLineItemDecoration:1.5] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\eef0113cc4a06d0167af6ef1a21f41a7\TimeLineItemDecoration-1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.vivian.widgets:TimeLineItemDecoration:1.5] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\eef0113cc4a06d0167af6ef1a21f41a7\TimeLineItemDecoration-1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\711cd693cb47fa08b9b342d9a2815457\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\711cd693cb47fa08b9b342d9a2815457\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.shell-software:viewmover:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b34d871b61ea08cf0f4fe1f57403515e\viewmover-1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:viewmover:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b34d871b61ea08cf0f4fe1f57403515e\viewmover-1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:uitools:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8af1103aecc4846a9c6a51b368f9700c\uitools-1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.shell-software:uitools:1.1.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8af1103aecc4846a9c6a51b368f9700c\uitools-1.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\98ae252499136acc1b719b648cf37a02\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\98ae252499136acc1b719b648cf37a02\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\240ad4e7c0a4c0f0ac07ba22afac43c2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\13f115cc5d5138e9ed6d7046dab5d030\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4660acd0807cc71ba66bee2bd6cbbbe5\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\2f9ffac3f9aa7c3da9b2ea0a60bff798\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e393f8741de26a3dcc6eeb170bd18679\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\c98a9bc0a455ab0200cce6feac99fa67\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b82955ed32a4ee277723d8123c155ac3\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\8756cea37b098f254fcf1c05271849e1\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e2a5a2145c109898fc28f4778cc59fa2\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\776dfa9be835a7a130740bd6b0619584\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b93ddaf99704c9896c23344bb8a6cc5b\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\912d14cf8b7da59afd70a06b1ab8df17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\9f66af0770fd83464340388aae824c93\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\f89186d3faa35207960141dbf97e7823\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\855199d21a2457dffd94f776f414402b\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\0c580ad6917269345b415f2689381fa7\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\32c3c3c1ff1572cd4fbf4adc8b2e281b\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\6382b0a1555e0e71f2a2930dfe6b1d66\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\ab60f6dd6ef13cb57d98ea7973f298c0\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\441dd746fc5507909e127eaa50801847\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\e30d9e6f3403e84c4cae532d406e4009\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7e49706f68e5f618f8958dc595258a99\appcompat-v7-23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:12:9-65
+permission#com.stx.xhb.dmgameapp.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:12:9-65
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+MERGED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:16:5-81
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:31:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:33:5-89
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:33:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:34:22-76
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:39:9-42:52
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:41:13-37
+	android:theme
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:40:13-62
+service#cn.jpush.android.service.DaemonService
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:80:9-89:19
+	android:enabled
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:82:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:83:13-36
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:81:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:${JPUSH_PKGNAME}
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:84:13-88:29
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.stx.xhb.dmgameapp
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:84:13-88:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:85:17-80
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:85:25-77
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:87:17-61
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:87:27-58
+meta-data#JPUSH_CHANNEL
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:120:9-122:48
+	android:value
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:122:13-45
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:121:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:123:9-125:47
+	android:value
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:124:13-40
+activity#com.yanzhenjie.permission.PermissionActivity
+ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:28:13-42
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:30:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:26:13-72
+provider#com.yanzhenjie.permission.FileProvider
+ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:32:9-40:20
+	android:grantUriPermissions
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:36:13-47
+	android:authorities
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:34:13-67
+	android:exported
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:33:13-66
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:37:13-39:65
+	android:resource
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:39:17-62
+	android:name
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:38:17-67

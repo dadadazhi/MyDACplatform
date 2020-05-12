@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\bzzzm\\DACplatform\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "E:\\bzzzm\\DACplatform\\app\\src\\main\\res\\values-zh\\attr.xml",
+                    "from": {
+                        "startLines": "8,2,4,3,27,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "292,55,150,100,1185,340",
+                        "endLines": "8,2,7,3,35,25",
+                        "endColumns": "47,44,11,49,24,24",
+                        "endOffsets": "335,95,287,145,1539,1179"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,54,63",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,103,148,290,2947,3303",
+                        "endLines": "2,3,7,8,62,79",
+                        "endColumns": "47,44,11,49,24,24",
+                        "endOffsets": "98,143,285,335,3298,4140"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bzz\\.gradle\\caches\\transforms-2\\files-2.1\\5621479b50e0c823df7531c6c56bc920\\ultra-ptr-1.0.11\\res\\values-zh\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "187,240,296,351,401,464,524,579,640",
+                        "endColumns": "52,55,54,49,62,59,54,60,53",
+                        "endOffsets": "235,291,346,396,459,519,574,635,689"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "979,1032,1088,1143,1193,1256,1316,1371,1432",
+                        "endColumns": "52,55,54,49,62,59,54,60,53",
+                        "endOffsets": "1027,1083,1138,1188,1251,1311,1366,1427,1481"
+                    }
+                },
+                {
+                    "source": "E:\\bzzzm\\DACplatform\\app\\src\\main\\res\\values-zh\\umeng_update_string.xml",
+                    "from": {
+                        "startLines": "10,2,14,8,12,4,11,7,13,5,9,6,3",
+                        "startColumns": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "419,52,593,323,500,142,461,278,539,187,377,233,97",
+                        "endColumns": "41,44,58,53,38,44,38,44,53,45,41,44,44",
+                        "endOffsets": "459,95,650,375,537,185,498,321,591,231,417,276,140"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "340,385,433,495,552,594,642,684,732,789,838,883,931",
+                        "endColumns": "44,47,61,56,41,47,41,47,56,48,44,47,47",
+                        "endOffsets": "380,428,490,547,589,637,679,727,784,833,878,926,974"
+                    }
+                },
+                {
+                    "source": "E:\\bzzzm\\DACplatform\\app\\src\\main\\res\\values-zh\\umeng_common_strings.xml",
+                    "from": {
+                        "startLines": "6,5,2,4,12,13,7,3,11,14,8,15,9,10",
+                        "startColumns": "1,1,1,1,1,1,1,1,4,1,1,1,1,1",
+                        "startOffsets": "295,238,52,184,709,768,350,115,640,833,424,895,493,566",
+                        "endColumns": "54,56,62,53,58,64,73,68,71,61,68,75,72,70",
+                        "endOffsets": "348,293,113,236,766,831,422,182,707,893,491,969,564,635"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43,44,45,46,47,48,49,50,51,52,53",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1989,2047,2107,2173,2230,2292,2360,2437,2509,2581,2646,2718,2797,2873",
+                        "endColumns": "57,59,65,56,61,67,76,71,71,64,71,78,75,73",
+                        "endOffsets": "2042,2102,2168,2225,2287,2355,2432,2504,2576,2641,2713,2792,2868,2942"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bzz\\.gradle\\caches\\transforms-2\\files-2.1\\a9d67c1062f9ffd102b5c7b73021d4e2\\permission-2.0.0-rc12\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,165,222,280,339,392,450,501",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "106,160,217,275,334,387,445,496,553"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1486,1542,1596,1653,1711,1770,1823,1881,1932",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "1537,1591,1648,1706,1765,1818,1876,1927,1984"
+                    }
+                }
+            ]
+        }
+    ]
+}

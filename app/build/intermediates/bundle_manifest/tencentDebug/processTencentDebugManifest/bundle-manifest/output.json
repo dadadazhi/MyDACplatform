@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":10,"versionName":"2.5","enabled":true,"outputFile":"app-tencent-debug.apk","fullName":"tencentDebug","baseName":"tencent-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.stx.xhb.DCAPlatform","split":"","minSdkVersion":"15"}}]

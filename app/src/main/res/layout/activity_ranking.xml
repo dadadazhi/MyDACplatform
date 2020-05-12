@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.innerFragments.NewsFragment">
+    <!-- 标题 -->
+    <include layout="@layout/title_layout"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:background="@color/colorWhite">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/ac_registered"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/toggle_fillet"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名次"
+                    android:textSize="15dp"></TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#EEEFFF"
+                android:layout_gravity="center_horizontal"
+                />
+            <LinearLayout
+                android:id="@+id/ac_underway"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/toggle_fillet"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="队名"
+                    android:textSize="15dp"></TextView>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#EEEFFF"
+                android:layout_gravity="center_horizontal"
+                />
+            <LinearLayout
+                android:id="@+id/ac_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/toggle_fillet"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="队长名"
+                    android:textSize="15dp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorGray"
+            android:layout_height="0.5dp"/>
+        <LinearLayout
+            android:id="@+id/ad_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

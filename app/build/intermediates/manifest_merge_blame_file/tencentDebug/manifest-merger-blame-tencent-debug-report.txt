@@ -1,0 +1,702 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.stx.xhb.DCAPlatform"
+4    android:versionCode="10"
+5    android:versionName="2.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml
+10
+11    <!-- 用户权限 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:7:5-66
+12-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+13-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:8:5-83
+13-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:8:22-81
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:9:5-80
+14-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:10:5-79
+15-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:11:5-80
+16-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:11:22-78
+17    <!-- 读取本地图片权限 -->
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:13:5-64
+18-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:13:22-62
+19
+20    <uses-feature android:name="android.hardware.camera" />
+20-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:14:5-59
+20-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:14:19-57
+21    <uses-feature android:name="android.hardware.camera.autofocus" />
+21-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:15:5-69
+21-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:15:19-67
+22    <!-- 需要添加一个权限，获取网络状态 -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:17:5-78
+23-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:17:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:18:5-75
+24-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:18:22-73
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:19:5-80
+25-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:19:22-78
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+26-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:20:5-79
+26-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:20:22-77
+27    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+28    <uses-permission android:name="android.permission.GET_TASKS" />
+28-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:22:5-67
+28-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:22:22-65
+29    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+29-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:23:5-74
+29-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:23:22-72
+30
+31    <!-- 极光推送所需权限  start -->
+32    <!-- Required -->
+33    <!-- Required -->
+34    <uses-permission android:name="com.stx.xhb.dmgameapp.permission.JPUSH_MESSAGE" />
+34-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:28:5-85
+34-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:28:22-83
+35    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+35-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:29:5-78
+35-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:29:22-76
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:30:5-67
+36-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:30:22-65
+37    <uses-permission android:name="android.permission.VIBRATE" />
+37-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:31:5-65
+37-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:31:22-63
+38    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+38-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:32:5-72
+38-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:32:22-70
+39
+40    <permission
+40-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:11:5-13:47
+41        android:name="com.stx.xhb.dmgameapp.permission.JPUSH_MESSAGE"
+41-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:12:9-65
+42        android:protectionLevel="signature" />
+42-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:13:9-44
+43
+44    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+44-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:31:5-76
+44-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:31:22-73
+45    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+45-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:32:5-79
+45-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:32:22-76
+46    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+46-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:33:5-89
+46-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:33:22-86
+47    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 极光推送所需权限  end -->
+47-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:34:5-79
+47-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:34:22-76
+48    <application
+48-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:34:5-313:19
+49        android:name="com.stx.xhb.DCAPlatform.base.BaseApplication"
+49-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:35:9-45
+50        android:allowBackup="true"
+50-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:36:9-35
+51        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+51-->[com.android.support:support-compat:28.0.0] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+52        android:debuggable="true"
+53        android:icon="@drawable/app"
+53-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:37:9-37
+54        android:label="@string/app_name"
+54-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:38:9-41
+55        android:supportsRtl="true"
+55-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:39:9-35
+56        android:testOnly="true"
+57        android:theme="@style/StyledIndicators" >
+57-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:40:9-48
+58
+59        <!-- 集成腾讯广告联盟  start -->
+60        <activity
+60-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:42:9-45:51
+61            android:name="com.stx.xhb.DCAPlatform.MainActivity"
+61-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:43:13-41
+62            android:launchMode="singleTask"
+62-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:44:13-44
+63            android:screenOrientation="portrait" />
+63-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:45:13-49
+64        <activity
+64-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:46:9-56:20
+65            android:name="com.stx.xhb.DCAPlatform.activities.SplashActivity"
+65-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:47:13-54
+66            android:launchMode="singleTask"
+66-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:48:13-44
+67            android:screenOrientation="portrait"
+67-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:49:13-49
+68            android:theme="@style/SplashTheme" >
+68-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:50:13-47
+69            <intent-filter>
+69-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:51:13-55:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:52:17-68
+70-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:52:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:54:17-76
+72-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:54:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:58:9-61:46
+76            android:name="com.stx.xhb.DCAPlatform.activities.ArticleDetailActivity"
+76-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:59:13-61
+77            android:screenOrientation="portrait"
+77-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:60:13-49
+78            android:theme="@style/AppTheme" />
+78-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:61:13-44
+79        <activity
+79-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:63:9-67:69
+80            android:name="com.stx.xhb.DCAPlatform.activities.CommentActivity"
+80-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:64:13-55
+81            android:screenOrientation="portrait"
+81-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:65:13-49
+82            android:theme="@style/AppTheme"
+82-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:66:13-44
+83            android:windowSoftInputMode="adjustResize|stateHidden" />
+83-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:67:13-67
+84        <activity
+84-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:69:9-72:46
+85            android:name="com.stx.xhb.DCAPlatform.activities.GameDetailActivity"
+85-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:70:13-58
+86            android:screenOrientation="portrait"
+86-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:71:13-49
+87            android:theme="@style/AppTheme" />
+87-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:72:13-44
+88        <activity
+88-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:73:9-76:46
+89            android:name="com.stx.xhb.DCAPlatform.activities.MessageDetailActivity"
+89-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:74:13-61
+90            android:screenOrientation="portrait"
+90-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:75:13-49
+91            android:theme="@style/AppTheme" />
+91-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:76:13-44
+92        <activity
+92-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:77:9-80:46
+93            android:name="com.stx.xhb.DCAPlatform.activities.MyEventsActivity"
+93-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:78:13-56
+94            android:screenOrientation="portrait"
+94-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:79:13-49
+95            android:theme="@style/AppTheme" />
+95-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:80:13-44
+96        <activity
+96-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:81:9-84:46
+97            android:name="com.stx.xhb.DCAPlatform.activities.AuditDetailActivity"
+97-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:82:13-59
+98            android:screenOrientation="portrait"
+98-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:83:13-49
+99            android:theme="@style/AppTheme" />
+99-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:84:13-44
+100        <activity
+100-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:85:9-88:46
+101            android:name="com.stx.xhb.DCAPlatform.activities.SelectAuditActivity"
+101-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:86:13-59
+102            android:screenOrientation="portrait"
+102-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:87:13-49
+103            android:theme="@style/AppTheme" />
+103-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:88:13-44
+104        <activity
+104-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:89:9-92:46
+105            android:name="com.stx.xhb.DCAPlatform.activities.SubmitActivity"
+105-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:90:13-54
+106            android:screenOrientation="portrait"
+106-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:91:13-49
+107            android:theme="@style/AppTheme" />
+107-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:92:13-44
+108        <activity
+108-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:93:9-96:46
+109            android:name="com.stx.xhb.DCAPlatform.filepick.FilePickerActivity"
+109-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:94:13-56
+110            android:screenOrientation="portrait"
+110-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:95:13-49
+111            android:theme="@style/AppTheme" />
+111-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:96:13-44
+112        <activity
+112-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:97:9-100:46
+113            android:name="com.stx.xhb.DCAPlatform.activities.AuditActivity"
+113-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:98:13-53
+114            android:screenOrientation="portrait"
+114-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:99:13-49
+115            android:theme="@style/AppTheme" />
+115-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:100:13-44
+116        <activity
+116-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:101:9-104:46
+117            android:name="com.stx.xhb.DCAPlatform.activities.AdminEventActivity"
+117-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:102:13-58
+118            android:screenOrientation="portrait"
+118-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:103:13-49
+119            android:theme="@style/AppTheme" />
+119-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:104:13-44
+120        <activity
+120-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:105:9-108:46
+121            android:name="com.stx.xhb.DCAPlatform.activities.CreateEventActivity"
+121-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:106:13-59
+122            android:screenOrientation="portrait"
+122-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:107:13-49
+123            android:theme="@style/AppTheme" />
+123-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:108:13-44
+124        <activity
+124-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:109:9-112:46
+125            android:name="com.stx.xhb.DCAPlatform.activities.HonorActivity"
+125-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:110:13-53
+126            android:screenOrientation="portrait"
+126-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:111:13-49
+127            android:theme="@style/AppTheme" />
+127-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:112:13-44
+128        <activity
+128-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:113:9-116:46
+129            android:name="com.stx.xhb.DCAPlatform.activities.LoginActivity"
+129-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:114:13-53
+130            android:screenOrientation="portrait"
+130-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:115:13-49
+131            android:theme="@style/AppTheme" />
+131-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:116:13-44
+132        <activity
+132-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:117:9-120:46
+133            android:name="com.stx.xhb.DCAPlatform.activities.RegisterActivity"
+133-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:118:13-56
+134            android:screenOrientation="portrait"
+134-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:119:13-49
+135            android:theme="@style/AppTheme" />
+135-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:120:13-44
+136        <activity
+136-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:121:9-124:46
+137            android:name="com.stx.xhb.DCAPlatform.activities.SignUpActivity"
+137-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:122:13-54
+138            android:screenOrientation="portrait"
+138-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:123:13-49
+139            android:theme="@style/AppTheme" />
+139-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:124:13-44
+140        <activity
+140-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:126:9-129:20
+141            android:name="com.qq.e.ads.ADActivity"
+141-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:127:13-51
+142            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" >
+142-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:128:13-83
+143        </activity>
+144        <activity
+144-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:131:9-136:46
+145            android:name="com.stx.xhb.DCAPlatform.activities.VideoDetailActivity"
+145-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:132:13-59
+146            android:configChanges="orientation|screenSize|keyboardHidden"
+146-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:133:13-74
+147            android:hardwareAccelerated="true"
+147-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:134:13-47
+148            android:screenOrientation="portrait"
+148-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:135:13-49
+149            android:theme="@style/AppTheme" />
+149-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:136:13-44
+150        <activity
+150-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:138:9-150:20
+151            android:name="com.tencent.smtt.sdk.VideoActivity"
+151-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:139:13-62
+152            android:alwaysRetainTaskState="true"
+152-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:140:13-49
+153            android:configChanges="orientation|screenSize|keyboardHidden"
+153-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:141:13-74
+154            android:exported="false"
+154-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:142:13-37
+155            android:launchMode="singleTask"
+155-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:143:13-44
+156            android:windowSoftInputMode="adjustResize|stateHidden" >
+156-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:144:13-67
+157            <intent-filter>
+157-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:145:13-149:29
+158                <action android:name="com.tencent.smtt.tbs.video.PLAY" />
+158-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:146:17-73
+158-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:146:25-71
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:17-75
+160-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:27-73
+161            </intent-filter>
+162        </activity>
+163        <activity
+163-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:151:9-154:46
+164            android:name="com.stx.xhb.DCAPlatform.activities.SettingActivity"
+164-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:152:13-55
+165            android:screenOrientation="portrait"
+165-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:153:13-49
+166            android:theme="@style/AppTheme" />
+166-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:154:13-44
+167        <activity
+167-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:156:9-159:46
+168            android:name="com.stx.xhb.DCAPlatform.activities.AboutActivity"
+168-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:157:13-53
+169            android:screenOrientation="portrait"
+169-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:158:13-49
+170            android:theme="@style/AppTheme" />
+170-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:159:13-44
+171        <activity
+171-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:161:9-164:53
+172            android:name="com.umeng.socialize.editorpage.ShareActivity"
+172-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:162:13-72
+173            android:excludeFromRecents="true"
+173-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:163:13-46
+174            android:theme="@style/Theme.UMDefault" />
+174-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:164:13-51
+175
+176        <!-- 微信 -->
+177        <activity
+177-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:167:9-172:74
+178            android:name="com.stx.xhb.DCAPlatform.wxapi.WXEntryActivity"
+178-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:168:13-50
+179            android:configChanges="keyboardHidden|orientation|screenSize"
+179-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:169:13-74
+180            android:exported="true"
+180-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:170:13-36
+181            android:screenOrientation="portrait"
+181-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:171:13-49
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:172:13-72
+183        <!-- 新浪微博 -->
+184        <activity
+184-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:174:9-182:20
+185            android:name="com.stx.xhb.DCAPlatform.activities.WBShareActivity"
+185-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:175:13-55
+186            android:configChanges="keyboardHidden|orientation"
+186-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:176:13-63
+187            android:screenOrientation="portrait" >
+187-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:177:13-49
+188            <intent-filter>
+188-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:178:13-181:29
+189                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+189-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:179:17-91
+189-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:179:25-89
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:17-75
+191-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:27-73
+192            </intent-filter>
+193        </activity>
+194        <activity
+194-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:184:9-189:20
+195            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+195-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:185:13-72
+196            android:configChanges="keyboardHidden|orientation"
+196-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:186:13-63
+197            android:exported="false"
+197-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:187:13-37
+198            android:windowSoftInputMode="adjustResize" >
+198-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:188:13-55
+199        </activity>
+200
+201        <!-- QQ qq空间 -->
+202        <activity
+202-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:192:9-204:20
+203            android:name="com.tencent.tauth.AuthActivity"
+203-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:193:13-58
+204            android:launchMode="singleTask"
+204-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:194:13-44
+205            android:noHistory="true" >
+205-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:195:13-37
+206            <intent-filter>
+206-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:196:13-203:29
+207                <action android:name="android.intent.action.VIEW" />
+207-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:197:17-68
+207-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:197:25-66
+208
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:17-75
+209-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:27-73
+210                <category android:name="android.intent.category.BROWSABLE" />
+210-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:200:17-77
+210-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:200:27-75
+211
+212                <data android:scheme="tencent100424468" />
+212-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:17-58
+212-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:23-56
+213            </intent-filter>
+214        </activity>
+215        <activity
+215-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:206:9-209:74
+216            android:name="com.tencent.connect.common.AssistActivity"
+216-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:207:13-69
+217            android:screenOrientation="portrait"
+217-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:208:13-49
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:209:13-72
+219        <activity
+219-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:211:9-221:20
+220            android:name="cn.jpush.android.ui.PushActivity"
+220-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:212:13-60
+221            android:configChanges="orientation|keyboardHidden"
+221-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:213:13-63
+222            android:exported="false"
+222-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:214:13-37
+223            android:theme="@android:style/Theme.NoTitleBar" >
+223-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:49:13-60
+224            <intent-filter>
+224-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:215:13-220:29
+225                <action android:name="cn.jpush.android.ui.PushActivity" />
+225-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:216:17-74
+225-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:216:25-72
+226
+227                <category android:name="android.intent.category.DEFAULT" />
+227-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:17-75
+227-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:148:27-73
+228                <category android:name="com.stx.xhb.dmgameapp" />
+228-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:17-65
+228-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:27-63
+229            </intent-filter>
+230        </activity>
+231
+232        <service
+232-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:223:9-225:39
+233            android:name="com.qq.e.comm.DownloadService"
+233-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:224:13-57
+234            android:exported="false" />
+234-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:225:13-37
+235
+236        <!-- 注册广播 -->
+237        <receiver android:name="com.stx.xhb.DCAPlatform.receiver.NetStateReceiver" >
+237-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:228:9-233:20
+237-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:228:19-60
+238            <intent-filter>
+238-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:229:13-232:29
+239
+240                <!-- 接收网络连接改变广播 -->
+241                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+241-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:17-78
+241-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:25-76
+242            </intent-filter>
+243        </receiver>
+244
+245        <!-- 腾讯x5内核 -->
+246        <meta-data
+246-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:236:9-238:55
+247            android:name="QBSDKAppKey"
+247-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:237:13-39
+248            android:value="YiAjQh+SwqZiSVQ2aBE/acQ5" />
+248-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:238:13-53
+249
+250        <receiver android:name="com.stx.xhb.DCAPlatform.receiver.BootCompletedReceiver" >
+250-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:240:9-244:20
+250-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:240:19-65
+251            <intent-filter>
+251-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:241:13-243:29
+252                <action android:name="android.intent.action.BOOT_COMPLETED" />
+252-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:242:17-78
+252-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:242:25-76
+253            </intent-filter>
+254        </receiver>
+255
+256        <!-- 极光推送相关配置  start -->
+257        <service
+257-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:247:9-257:19
+258            android:name="cn.jpush.android.service.PushService"
+258-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:248:13-64
+259            android:enabled="true"
+259-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:249:13-35
+260            android:exported="false"
+260-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:250:13-37
+261            android:process=":pushcore" >
+261-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:69:13-40
+262            <intent-filter>
+262-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:251:13-256:29
+263                <action android:name="cn.jpush.android.intent.REGISTER" />
+263-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:252:17-74
+263-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:252:25-72
+264                <action android:name="cn.jpush.android.intent.REPORT" />
+264-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:253:17-72
+264-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:253:25-70
+265                <action android:name="cn.jpush.android.intent.PushService" />
+265-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:254:17-77
+265-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:254:25-75
+266                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+266-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:255:17-75
+266-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:255:25-73
+267            </intent-filter>
+268        </service>
+269
+270        <receiver
+270-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:259:9-277:20
+271            android:name="cn.jpush.android.service.PushReceiver"
+271-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:260:13-65
+272            android:enabled="true"
+272-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:261:13-35
+273            android:exported="false"
+273-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:95:13-37
+274            android:process=":pushcore" >
+274-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:96:13-40
+275            <intent-filter android:priority="1000" >
+275-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:262:13-265:29
+275-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:262:28-51
+276                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+276-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:263:17-93
+276-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:263:25-91
+277
+278                <category android:name="com.stx.xhb.dmgameapp" />
+278-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:17-65
+278-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:27-63
+279            </intent-filter>
+280            <intent-filter>
+280-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:266:13-269:29
+281                <action android:name="android.intent.action.USER_PRESENT" />
+281-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:267:17-76
+281-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:267:25-74
+282                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+282-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:17-78
+282-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:231:25-76
+283            </intent-filter>
+284            <!-- Optional -->
+285            <intent-filter>
+285-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:271:13-276:29
+286                <action android:name="android.intent.action.PACKAGE_ADDED" />
+286-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:272:17-77
+286-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:272:25-75
+287                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+287-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:273:17-79
+287-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:273:25-77
+288
+289                <data android:scheme="package" />
+289-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:17-58
+289-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:202:23-56
+290            </intent-filter>
+291        </receiver>
+292
+293        <service
+293-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:279:9-283:19
+294            android:name="cn.jpush.android.service.DownloadService"
+294-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:280:13-68
+295            android:enabled="true"
+295-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:281:13-35
+296            android:exported="false" >
+296-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:282:13-37
+297        </service>
+298
+299        <receiver
+299-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:284:9-74
+300            android:name="cn.jpush.android.service.AlarmReceiver"
+300-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:284:19-72
+301            android:exported="false" />
+301-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:117:13-37
+302        <!-- 极光推送相关配置  end -->
+303
+304
+305        <!-- umeng社会化分享配置 -->
+306        <meta-data
+306-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:288:9-291:21
+307            android:name="UMENG_APPKEY"
+307-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:289:13-40
+308            android:value="56de5a6567e58e3e5e000a25" >
+308-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:290:13-53
+309        </meta-data>
+310        <meta-data
+311            android:name="UMENG_CHANNEL"
+311-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:293:13-41
+312            android:value="Tencent" />
+312-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:294:13-39
+313
+314        <!-- 科大讯飞自动更新 -->
+315        <meta-data
+315-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:297:9-299:41
+316            android:name="IFLYTEK_APPKEY"
+316-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:298:13-42
+317            android:value="&apos;57f99c49&apos;" />
+317-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:299:13-29
+318        <meta-data
+319            android:name="IFLYTEK_CHANNEL"
+319-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:301:13-43
+320            android:value="Tencent" />
+320-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:302:13-39
+321
+322        <activity android:name="com.iflytek.autoupdate.IFlytekUpdateDialog" />
+322-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:304:9-78
+322-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:304:19-76
+323
+324        <service android:name="com.iflytek.autoupdate.IFlytekDownloadService" />
+324-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:305:9-80
+324-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:305:18-78
+325
+326        <!--
+327            <supports-screens
+328            android:anyDensity="true"
+329            android:largeScreens="true"
+330            android:normalScreens="true"
+331            android:resizeable="true"
+332            android:smallScreens="true"/>
+333        -->
+334        <!-- Rich push 核心功能 since 2.0.6 -->
+335        <activity
+335-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:39:9-42:52
+336            android:name="cn.jpush.android.ui.PopWinActivity"
+336-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:40:13-62
+337            android:exported="false"
+337-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:41:13-37
+338            android:theme="@style/MyDialogStyle" /> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+338-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:42:13-49
+339        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+340        <service
+340-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:80:9-89:19
+341            android:name="cn.jpush.android.service.DaemonService"
+341-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:81:13-66
+342            android:enabled="true"
+342-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:82:13-35
+343            android:exported="true" >
+343-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:83:13-36
+344            <intent-filter>
+344-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:84:13-88:29
+345                <action android:name="cn.jpush.android.intent.DaemonService" />
+345-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:85:17-80
+345-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:85:25-77
+346
+347                <category android:name="com.stx.xhb.dmgameapp" />
+347-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:17-65
+347-->E:\bzzzm\DACplatform\app\src\main\AndroidManifest.xml:219:27-63
+348            </intent-filter>
+349        </service> <!-- Required  . Enable it you can get statistics data with channel -->
+350        <meta-data
+350-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:120:9-122:48
+351            android:name="JPUSH_CHANNEL"
+351-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:121:13-41
+352            android:value="developer-default" />
+352-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:122:13-45
+353        <meta-data
+353-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:123:9-125:47
+354            android:name="JPUSH_APPKEY"
+354-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:124:13-40
+355            android:value="1d606486b7fd03d82a683ecd" />
+355-->[cn.jiguang:jpush:2.1.9] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\7dfeed51e00d1945c83cf9bb5c351ecc\jpush-2.1.9\AndroidManifest.xml:125:13-44
+356
+357        <activity
+357-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:25:9-30:75
+358            android:name="com.yanzhenjie.permission.PermissionActivity"
+358-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:26:13-72
+359            android:configChanges="keyboardHidden|orientation|screenSize"
+359-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:27:13-74
+360            android:launchMode="standard"
+360-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:28:13-42
+361            android:theme="@style/Permission.Theme.Activity"
+361-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:29:13-61
+362            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+362-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:30:13-72
+363
+364        <provider
+364-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:32:9-40:20
+365            android:name="com.yanzhenjie.permission.FileProvider"
+365-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:33:13-66
+366            android:authorities="com.stx.xhb.DCAPlatform.file.path.share"
+366-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:34:13-67
+367            android:exported="false"
+367-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:35:13-37
+368            android:grantUriPermissions="true" >
+368-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:36:13-47
+369            <meta-data
+369-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:37:13-39:65
+370                android:name="android.support.FILE_PROVIDER_PATHS"
+370-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:38:17-67
+371                android:resource="@xml/permission_file_paths" />
+371-->[com.yanzhenjie:permission:2.0.0-rc12] C:\Users\bzz\.gradle\caches\transforms-2\files-2.1\4584dbf8cae617dcb88dbab2c7ba4386\permission-2.0.0-rc12\AndroidManifest.xml:39:17-62
+372        </provider>
+373    </application>
+374
+375</manifest>
