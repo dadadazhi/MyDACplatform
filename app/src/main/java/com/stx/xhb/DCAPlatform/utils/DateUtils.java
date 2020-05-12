@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
 /**
- * Created by xhb on 2016/1/19.
+
  * 日期转换工具类
  */
 public class DateUtils {

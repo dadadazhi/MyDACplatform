@@ -1,7 +1,7 @@
 package com.stx.xhb.DCAPlatform.utils;
 
 /**
- * Created by xhb on 2016/1/19.
+
  * 接口地址工具类
  */
 public class API {
