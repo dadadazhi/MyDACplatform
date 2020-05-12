@@ -8,8 +8,7 @@ import java.math.BigDecimal;
 
 /**
  * Created by jxnk25 on 2016/10/8.
- *
- * @link https://xiaohaibin.github.io/
+
  * @email： xhb_199409@163.com
  * @github: https://github.com/xiaohaibin
  * @description： 应用缓存清理工具

@@ -1,7 +1,6 @@
 package com.stx.xhb.DCAPlatform.utils;
 
 /**
-
  * 接口地址工具类
  */
 public class API {
